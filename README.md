@@ -1,4 +1,7 @@
 # ComposeSwipeToReveal
+
+[![](https://jitpack.io/v/j-roskopf/ComposeSwipeToReveal.svg)](https://jitpack.io/#j-roskopf/ComposeSwipeToReveal)
+
 A compose solution for adding swipe to reveal to a list.
 
 A full sample is included in the :app module.
