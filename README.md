@@ -46,5 +46,25 @@ LazyColumn {
 
 ```
 
-
 https://user-images.githubusercontent.com/7951665/148693975-51737bdf-9d63-45cd-99ae-1c986dd48c43.mov
+
+# Add it to your project
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+
+```
+dependencies {
+        implementation 'com.github.j-roskopf:ComposeSwipeToReveal:<latest_version>'
+}
+```
